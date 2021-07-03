@@ -49,11 +49,11 @@ const app = Vue.createApp({
     methods: {
         startGame() {
             this.monsterHealth = 100,
-            this.playerHealth = 100,
-            this.specialAttackRoundCounter = 0,
-            this.healRoundCounter = 0,
-            this.winner = null,
-            this.logMessages = []
+                this.playerHealth = 100,
+                this.specialAttackRoundCounter = 0,
+                this.healRoundCounter = 0,
+                this.winner = null,
+                this.logMessages = []
         },
         attackMonster() {
             if (this.mayUseSpecialAttack) {
